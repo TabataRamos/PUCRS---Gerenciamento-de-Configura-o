@@ -1,1 +1,5 @@
 # PUCRS-Gerenciamento-de-Configuracao
+
+Ao adicionar uma feature ou correção de bugs, é necessário ter um clone do projeto em sua máquina (git clone), criar uma nova branch (git branch nome-da-branch) e acessa-la (git checkout nome-da-branch). Após realizar as alterações desejadas você deve escolher os arquivos que deseja enviar (git add nome-do-arquivo) ou escolher todos (git add .) e depois realizar o commit com uma mensagem curta explicando qual alteração foi feita (git commit -m "minha-mensagem"). Após isso é possível enviar suas alterações locais para a branch remota (git push).
+Dentro do github pode ser solicitado um pull request para que as alterações sejam enviadas para a branch principal. O merge pode ser feito após ser realizado testes, revisão e aprovação por outrem.
+Após o merge ser feito na branch principal, você pode atualizar essa branch na sua máquina (git checkout principal e depois git pull) pois é importante mante-la atualizada ao repetir o processo, evitando erros de conflitos posteriormente. Quando finalizado, a branch local deve ser deletada (git branch -d nome-da-branch).
